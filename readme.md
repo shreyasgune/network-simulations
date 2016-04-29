@@ -9,7 +9,7 @@ You're going to need Cisco Packet Tracer to try these things out. There might be
 [Packet Tracer](https://www.netacad.com/about-networking-academy/packet-tracer/) 
 
 ##Series
-1. [IP's, Subnetting, VLANs and DHCP Configs]()
+1. [IP's, Subnetting, VLANs and DHCP Configs](https://github.com/shreyasgune/network-simulations/blob/master/series1.md)
 
 ## Contributors
 This was done following one of the most amazing lab guys online, Remote Training Solutions! Give him a visit. 
