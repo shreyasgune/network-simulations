@@ -1,6 +1,6 @@
 #IP's, Subnetting, VLANs and DHCP Configs
 This walkthrough lets you realize the network in the picture.
-[Network Topology](https://github.com/shreyasgune/network-simulations/blob/master/manetwork.JPG)
+![Network Topology](https://github.com/shreyasgune/network-simulations/blob/master/manetwork.JPG)
 
 The picture clearly tells you what routers,Switches,Laptops,End Devices and Servers to select.
 
