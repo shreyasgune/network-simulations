@@ -10,11 +10,11 @@ You're going to need Cisco Packet Tracer to try these things out. There might be
 
 ##Series
 1. [IP's, Subnetting and DHCP Pools](https://github.com/shreyasgune/network-simulations/blob/master/series1.md)
-2. VLANs
-3. Connectivity : DHCP Test
-4. Security
-5. Remote Access / VPN 
-6. Access Control Lists
+2. VLANs (coming soon)
+3. Connectivity : DHCP Test (coming soon)
+4. Security (coming soon)
+5. Remote Access / VPN (coming soon)
+6. Access Control Lists (coming soon)
 
 ## Contributors
 This was done following one of the most amazing lab guys online, Remote Training Solutions! Give him a visit. 
