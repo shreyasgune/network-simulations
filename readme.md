@@ -10,7 +10,7 @@ You're going to need Cisco Packet Tracer to try these things out. There might be
 
 ##Series
 1. [IP's, Subnetting and DHCP Pools](https://github.com/shreyasgune/network-simulations/blob/master/series1.md)
-2. VLANs (coming soon)
+2. [VLANs] (https://github.com/shreyasgune/network-simulations/blob/master/VLAN-CLI.md)
 3. [Connectivity : DHCP Test] (https://github.com/shreyasgune/network-simulations/blob/master/Connectivity.md)
 4. Security (coming soon)
 5. Remote Access / VPN (coming soon)
