@@ -26,7 +26,6 @@ Go to Access Point 0
 >Switch off Laptop
 >Take the wired-NIC out
 >Slide the Wireless-NIC in
-```
 >Config Tab	
 	change SSID to : SALES    ##make sure the SSID on Wireless-NIC matches SSID on Access Point
 	Authenticaion : WPA2-PSK
@@ -141,6 +140,8 @@ C       172.16.11.0/26 is directly connected, FastEthernet0/0.20
 C       172.16.11.64/27 is directly connected, FastEthernet0/0.30
 C       172.16.11.96/28 is directly connected, FastEthernet0/0.40
 S*   0.0.0.0/0 is directly connected, Serial0/0/0
+
+```
 
 ##over on the internet side, we have the Router1(ISP). This needs to send the traffic back to the corporate network.
 ##Corporate network has the IP : 172.16.10.0/23. This is the destination route. The destination interface is the interface that is on the Router0(customer) that goes by the address 88.40.12.1. so basically, we're routing anything that is destined for 172.16.10.0/23 to reach 88.40.12.1 and the Router0-customer will take care of the traffic from there on.
