@@ -87,7 +87,7 @@ VTP Password: gune
 ```
 
 ##Check the VLANs that are defined on Switch 2 
-`1`
+```
 SW2#show vlan brief
 
 VLAN Name                             Status    Ports
