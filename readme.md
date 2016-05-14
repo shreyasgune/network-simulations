@@ -7,16 +7,38 @@ I just wanted to find out how networks work. This series takes care of most of t
 ## Installation
 You're going to need Cisco Packet Tracer to try these things out. There might be a student edition you can get hold of.
 [Packet Tracer](https://www.netacad.com/about-networking-academy/packet-tracer/) 
+For more advanced labs, I'm using GNS3. There is a ton of configuration that is required to be taken care of and I will expand on those
+specifics in this section on 5/21/2016. Keep looking into this space for the updated info. 
+If you wan't to play around, go ahead and download [GNS3](https://www.gns3.com/software/download). 
 
 ##Series
 1. [IP's, Subnetting and DHCP Pools](https://github.com/shreyasgune/network-simulations/blob/master/series1.md)
 2. [VLANs] (https://github.com/shreyasgune/network-simulations/blob/master/VLAN-CLI.md)
 3. [Connectivity : DHCP Test] (https://github.com/shreyasgune/network-simulations/blob/master/Connectivity.md)
 4. [Security] (https://github.com/shreyasgune/network-simulations/blob/master/security.md)
-5. Remote Access / VPN (coming soon)
+5. [Remote Access / VPN] (https://github.com/shreyasgune/network-simulations/blob/master/remote_access_vpn.md)
 6. Access Control Lists (coming soon)
 7. FTP Configuration and Access (coming soon)
 8. Mail Server Configuration and Testing using SMTP and POP3 (coming soon)
+9. MPLS Lab (coming soon) 
+10. Network Management I : Kron Task Scheduler (coming soon)
+11. Network Management II : NTP (Network Time Protocol) (coming soon)
+12. Network Management III : Conditional Debug (coming soon)
+13. Network Management IV : Remote Shell (coming soon) 
+14. VTP (coming soon)
+15. BGP (coming soon)
+16. Multicast Telneting (coming soon) 
+17. Pv6 Tunneling over IPv4 (coming soon)
+18. TCP and RTP Header Compression (coming soon)
+19. Weighted Fair Queueing (coming soon)
+20. RSVP for Weighted Fair Queueing (coming soon)
+21. RSVP Subnetwork Bandwidth Manager (SBM) (coming soon)
+22. TCLSH Scripting (coming soon) 
+23. NAT TCP Load Balancing (coming soon)
+24. Policy Based Routing (coming soon)
+25. Summary and Important Commands (coming soon)
+
+This is the complete list. I hope you guys enjoy these entries and I hope they help you in understanding networks better.
 
 ## Contributors
 This was done following one of the most amazing lab guys online, Remote Training Solutions! Give him a visit. 
