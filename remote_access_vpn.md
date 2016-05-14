@@ -1,14 +1,16 @@
 #Remote Access VPN Config
 ##Aim is to create a remote access user that will be coming in through a DSL modem.
+
+![Topology](https://github.com/shreyasgune/network-simulations/blob/master/remote-access-vpn.JPG)
 ##Additional Components to the Network : 
 	PC - Remote Access PC
 	MODEM - DSL Modem0
 	Cloud - Cloud0
+	DSL
 	
 ##config the Cloud0
 Goto Config Tab
 ```
-	DSL
 		Modem4 <---> Ethernet6 [ADD]
 ```
 ##Set up the new cloud network
@@ -187,7 +189,8 @@ interface: FastEthernet0/1
      current outbound spi: 0x67A8211F(1739071775)
 ```
 
-##Browsing works as well! : look up www.shreyas.com / www.internal.com 
+##Browsing works as well! : look up 
+`www.shreyas.com / www.internal.com`
 ##check :show running-config to cross-check everything on your Router0.
 
 
