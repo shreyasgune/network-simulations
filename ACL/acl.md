@@ -1,4 +1,6 @@
 #Access Control List Implementation
+
+![Topology] (https://github.com/shreyasgune/network-simulations/blob/master/ACL/acl_topo.JPG)
 I want to stop any traffic that comes from 192.168.1.0 to my 192.168.5.0 network.
 
 ##Configuration for Router 0
