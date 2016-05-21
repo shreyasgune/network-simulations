@@ -1,0 +1,53 @@
+# This file is an output of a discrete event simulation.
+# It contains spanning tree information to be parsed while
+# visualizing the spanning tree using the Protocols->STP menu.
+# Legend: node name, VID, VLAN/tree name, port/node type, link name.
+Office Network.node_30,0,Common ST,root,none
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_0
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_1
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_2
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_3
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_4
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_5
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_6
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_7
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_8
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_9
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_10
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_11
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_12
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_13
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_14
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_15
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_16
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_17
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_18
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_19
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_20
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_21
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_22
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_23
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_24
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_25
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_26
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_27
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_28
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_30 <-> node_29
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_31 <-> node_30
+Office Network.node_30,0,Common ST,designated_port,Office Network.node_50 <-> node_30
+Office Network.node_49,0,Common ST,root,none
+Office Network.node_49,0,Common ST,designated_port,Office Network.node_49 <-> node_34
+Office Network.node_49,0,Common ST,designated_port,Office Network.node_49 <-> node_35
+Office Network.node_49,0,Common ST,designated_port,Office Network.node_49 <-> node_36
+Office Network.node_49,0,Common ST,designated_port,Office Network.node_49 <-> node_37
+Office Network.node_49,0,Common ST,designated_port,Office Network.node_49 <-> node_38
+Office Network.node_49,0,Common ST,designated_port,Office Network.node_49 <-> node_39
+Office Network.node_49,0,Common ST,designated_port,Office Network.node_49 <-> node_40
+Office Network.node_49,0,Common ST,designated_port,Office Network.node_49 <-> node_41
+Office Network.node_49,0,Common ST,designated_port,Office Network.node_49 <-> node_42
+Office Network.node_49,0,Common ST,designated_port,Office Network.node_49 <-> node_43
+Office Network.node_49,0,Common ST,designated_port,Office Network.node_49 <-> node_44
+Office Network.node_49,0,Common ST,designated_port,Office Network.node_49 <-> node_45
+Office Network.node_49,0,Common ST,designated_port,Office Network.node_49 <-> node_46
+Office Network.node_49,0,Common ST,designated_port,Office Network.node_49 <-> node_47
+Office Network.node_49,0,Common ST,designated_port,Office Network.node_49 <-> node_48
