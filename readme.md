@@ -18,7 +18,7 @@ If you wan't to play around, go ahead and download [GNS3](https://www.gns3.com/s
 4. [Security] (https://github.com/shreyasgune/network-simulations/blob/master/security.md)
 5. [Remote Access / VPN] (https://github.com/shreyasgune/network-simulations/blob/master/remote_access_vpn.md)
 6. [Access Control Lists] (https://github.com/shreyasgune/network-simulations/blob/master/ACL/acl.md) 
-7. FTP Configuration and Access (coming on 5/21/2016)
+7. [FTP Configuration and Access] (https://github.com/shreyasgune/network-simulations/tree/master/FTP)
 8. Mail Server Configuration and Testing using SMTP and POP3 (coming on 5/22/2016)
 9. MPLS Lab (coming soon) 
 10. Network Management I : Kron Task Scheduler (coming on 5/23/2016)
