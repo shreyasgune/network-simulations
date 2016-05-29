@@ -1,5 +1,6 @@
 #Remote Access VPN Config
 ##Aim is to create a remote access user that will be coming in through a DSL modem.
+![Topo](https://github.com/shreyasgune/network-simulations/blob/master/Remote%20Access%20VPN/remote-access-vpn.JPG)
 ##Additional Components to the Network : 
 	PC - Remote Access PC
 	MODEM - DSL Modem0
