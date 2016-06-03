@@ -1,0 +1,24 @@
+May 20 17:01:31.092 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+May 20 17:01:31.092 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 57734.
+May 20 17:01:31.540 HYPERVISOR: exec_cmd: hypervisor version 
+May 20 17:01:31.545 HYPERVISOR: exec_cmd: hypervisor working_dir C:/dev/networktrace/Kron/kron-job\project-files\dynamips 
+May 20 17:01:31.661 GENERAL: working_dir=C:/dev/networktrace/Kron/kron-job\project-files\dynamips
+May 20 17:01:31.664 HYPERVISOR: exec_cmd: vm create Cron 1 c3600 
+May 20 17:01:31.674 VM: VM Cron created.
+May 20 17:01:31.676 HYPERVISOR: exec_cmd: vm set_con_tcp_port Cron 2000 
+May 20 17:01:31.697 HYPERVISOR: exec_cmd: c3600 get_mac_addr Cron 
+May 20 17:01:31.702 HYPERVISOR: exec_cmd: vm set_nvram Cron 256 
+May 20 17:01:31.707 HYPERVISOR: exec_cmd: c3600 set_mac_addr Cron cc01.2164.0000 
+May 20 17:01:31.721 HYPERVISOR: exec_cmd: vm set_ram Cron 192 
+May 20 17:01:31.726 HYPERVISOR: exec_cmd: vm set_exec_area Cron 64 
+May 20 17:01:31.731 HYPERVISOR: exec_cmd: vm set_ios Cron C:/Users/Shreyas/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+May 20 17:01:31.736 HYPERVISOR: exec_cmd: vm get_status Cron 
+May 20 17:01:31.741 HYPERVISOR: exec_cmd: vm set_idle_pc Cron 0x6059c528 
+May 20 17:01:31.746 HYPERVISOR: exec_cmd: vm set_config Cron configs/i1_startup-config.cfg 
+May 20 17:01:35.768 HYPERVISOR: exec_cmd: vm get_status Cron 
+May 20 17:01:35.773 HYPERVISOR: exec_cmd: vm extract_config Cron 
+May 20 17:01:35.780 HYPERVISOR: exec_cmd: vm delete Cron 
+May 20 17:01:35.780 VM: VM Cron destroyed.
+May 20 17:01:35.787 HYPERVISOR: exec_cmd: hypervisor stop 
+May 20 17:01:36.034 HYPERVISOR: Stopped.
+May 20 17:01:36.034 GENERAL: reset done.

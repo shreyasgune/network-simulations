@@ -1,0 +1,39 @@
+May 20 16:40:59.266 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+May 20 16:40:59.267 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 57447.
+May 20 16:40:59.497 HYPERVISOR: exec_cmd: hypervisor version 
+May 20 16:40:59.502 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Shreyas\GNS3\projects\kron_task\project-files\dynamips 
+May 20 16:40:59.622 GENERAL: working_dir=C:\Users\Shreyas\GNS3\projects\kron_task\project-files\dynamips
+May 20 16:40:59.626 HYPERVISOR: exec_cmd: vm create R1 1 c3600 
+May 20 16:40:59.627 VM: VM R1 created.
+May 20 16:40:59.632 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 2000 
+May 20 16:40:59.637 HYPERVISOR: exec_cmd: c3600 get_mac_addr R1 
+May 20 16:40:59.642 HYPERVISOR: exec_cmd: vm set_ram R1 192 
+May 20 16:40:59.647 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+May 20 16:40:59.652 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Shreyas/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+May 20 16:40:59.657 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+May 20 16:40:59.662 HYPERVISOR: exec_cmd: vm get_status R1 
+May 20 16:40:59.667 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x6059c528 
+May 20 16:40:59.675 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg 
+May 20 16:41:07.816 HYPERVISOR: exec_cmd: vm rename R1 Cron 
+May 20 16:41:15.752 HYPERVISOR: exec_cmd: vm create Ghost 0 c3600 
+May 20 16:41:15.753 VM: VM Ghost created.
+May 20 16:41:15.757 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Shreyas/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+May 20 16:41:15.762 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+May 20 16:41:15.767 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost c3640-jk9s-mz.124-16.image-192.ghost 
+May 20 16:41:15.772 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+May 20 16:41:15.777 HYPERVISOR: exec_cmd: vm get_status Ghost 
+May 20 16:41:15.942 HYPERVISOR: exec_cmd: vm start Ghost 
+May 20 16:41:16.971 HYPERVISOR: exec_cmd: vm get_status Ghost 
+May 20 16:41:16.980 HYPERVISOR: exec_cmd: vm stop Ghost 
+May 20 16:41:17.936 VM: VM Ghost shutdown.
+May 20 16:41:17.943 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+May 20 16:41:17.943 VM: VM Ghost destroyed.
+May 20 16:41:17.984 HYPERVISOR: exec_cmd: vm set_ghost_status Cron 2 
+May 20 16:41:17.989 HYPERVISOR: exec_cmd: vm set_ghost_file Cron c3640-jk9s-mz.124-16.image-192.ghost 
+May 20 16:41:17.994 HYPERVISOR: exec_cmd: vm get_status Cron 
+May 20 16:41:18.000 HYPERVISOR: exec_cmd: vm start Cron 
+May 20 17:00:46.604 HYPERVISOR: exec_cmd: vm extract_config Cron 
+May 20 17:00:52.769 HYPERVISOR: exec_cmd: vm get_status Cron 
+May 20 17:00:52.775 HYPERVISOR: exec_cmd: vm stop Cron 
+May 20 17:00:52.882 VM: VM Cron shutdown.
+May 20 17:00:52.890 HYPERVISOR: exec_cmd: vm extract_config Cron 
