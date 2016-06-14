@@ -1,5 +1,7 @@
 #Configuring Time Sync using NTP
 
+##Topology
+![Topology](https://github.com/shreyasgune/network-simulations/blob/master/NTP%20(Network%20Time%20Protocol)/ntp_topo.JPG)
 Network Time Protocol (NTP) is a networking protocol for clock synchronization between computer systems over packet-switched, variable-latency data networks.
 
 Refer to the topology diagram for IP addresses.
