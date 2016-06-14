@@ -1,0 +1,43 @@
+May 20 18:41:37.305 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+May 20 18:41:37.306 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58393.
+May 20 18:41:37.526 HYPERVISOR: exec_cmd: hypervisor version 
+May 20 18:41:37.548 HYPERVISOR: exec_cmd: hypervisor working_dir C:\dev\networktrace\NTP (Network Time Protocol)\project-files\dynamips 
+May 20 18:41:37.548 GENERAL: working_dir=C:\dev\networktrace\NTP (Network Time Protocol)\project-files\dynamips
+May 20 18:41:37.568 HYPERVISOR: exec_cmd: vm create Atomic 2 c3600 
+May 20 18:41:37.570 VM: VM Atomic created.
+May 20 18:41:37.596 HYPERVISOR: exec_cmd: vm set_con_tcp_port Atomic 2006 
+May 20 18:41:37.624 HYPERVISOR: exec_cmd: c3600 get_mac_addr Atomic 
+May 20 18:41:37.649 HYPERVISOR: exec_cmd: vm get_status Atomic 
+May 20 18:41:37.674 HYPERVISOR: exec_cmd: vm slot_add_binding Atomic 1 0 NM-1FE-TX 
+May 20 18:41:37.698 HYPERVISOR: exec_cmd: vm set_ios Atomic C:/Users/Shreyas/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+May 20 18:41:37.722 HYPERVISOR: exec_cmd: vm get_status Atomic 
+May 20 18:41:37.746 HYPERVISOR: exec_cmd: vm set_idle_pc Atomic 0x603e26f0 
+May 20 18:41:37.771 HYPERVISOR: exec_cmd: vm get_status Atomic 
+May 20 18:41:37.794 HYPERVISOR: exec_cmd: vm slot_add_binding Atomic 0 0 NM-1FE-TX 
+May 20 18:41:37.818 HYPERVISOR: exec_cmd: vm set_ram Atomic 192 
+May 20 18:41:37.859 HYPERVISOR: exec_cmd: vm set_config Atomic configs/i2_startup-config.cfg 
+May 20 18:41:38.054 HYPERVISOR: exec_cmd: nio create_udp udp-2db7d9b8-b888-441a-aa30-05af22e119ed 10000 127.0.0.1 10001 
+May 20 18:41:38.153 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Atomic 1 0 udp-2db7d9b8-b888-441a-aa30-05af22e119ed 
+May 20 18:41:38.180 HYPERVISOR: exec_cmd: vm get_status Atomic 
+May 20 18:41:38.425 HYPERVISOR: exec_cmd: nio create_udp udp-a50cd869-2c77-44ea-9fcf-a10b7a754f15 10006 127.0.0.1 10007 
+May 20 18:41:38.473 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Atomic 0 0 udp-a50cd869-2c77-44ea-9fcf-a10b7a754f15 
+May 20 18:41:38.496 HYPERVISOR: exec_cmd: vm get_status Atomic 
+May 20 18:41:38.536 HYPERVISOR: exec_cmd: vm extract_config Atomic 
+May 20 18:43:39.036 HYPERVISOR: exec_cmd: vm set_ghost_status Atomic 2 
+May 20 18:43:39.057 HYPERVISOR: exec_cmd: vm set_ghost_file Atomic c3640-jk9s-mz.124-16.image-192.ghost 
+May 20 18:43:39.067 HYPERVISOR: exec_cmd: vm get_status Atomic 
+May 20 18:43:39.078 HYPERVISOR: exec_cmd: vm start Atomic 
+May 20 19:23:03.991 HYPERVISOR: exec_cmd: vm get_status Atomic 
+May 20 19:23:04.017 HYPERVISOR: exec_cmd: vm stop Atomic 
+May 20 19:23:04.239 VM: VM Atomic shutdown.
+May 20 19:23:04.246 HYPERVISOR: exec_cmd: vm extract_config Atomic 
+May 20 19:23:07.670 HYPERVISOR: exec_cmd: vm extract_config Atomic 
+May 20 19:23:17.121 HYPERVISOR: exec_cmd: vm rename Atomic Jonny 
+May 20 19:27:11.233 HYPERVISOR: exec_cmd: vm extract_config Jonny 
+May 20 19:27:13.486 HYPERVISOR: exec_cmd: vm get_status Jonny 
+May 20 19:27:13.510 HYPERVISOR: exec_cmd: vm extract_config Jonny 
+May 20 19:27:13.539 HYPERVISOR: exec_cmd: vm delete Jonny 
+May 20 19:27:13.539 VM: VM Jonny destroyed.
+May 20 19:27:13.582 HYPERVISOR: exec_cmd: hypervisor stop 
+May 20 19:27:14.014 HYPERVISOR: Stopped.
+May 20 19:27:14.014 GENERAL: reset done.

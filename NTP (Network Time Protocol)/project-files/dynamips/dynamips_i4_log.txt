@@ -1,0 +1,43 @@
+May 20 18:41:37.389 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+May 20 18:41:37.390 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58395.
+May 20 18:41:37.553 HYPERVISOR: exec_cmd: hypervisor version 
+May 20 18:41:37.578 HYPERVISOR: exec_cmd: hypervisor working_dir C:\dev\networktrace\NTP (Network Time Protocol)\project-files\dynamips 
+May 20 18:41:37.578 GENERAL: working_dir=C:\dev\networktrace\NTP (Network Time Protocol)\project-files\dynamips
+May 20 18:41:37.610 HYPERVISOR: exec_cmd: vm create Julian 4 c3600 
+May 20 18:41:37.611 VM: VM Julian created.
+May 20 18:41:37.634 HYPERVISOR: exec_cmd: vm set_con_tcp_port Julian 2007 
+May 20 18:41:37.661 HYPERVISOR: exec_cmd: c3600 get_mac_addr Julian 
+May 20 18:41:37.685 HYPERVISOR: exec_cmd: vm get_status Julian 
+May 20 18:41:37.708 HYPERVISOR: exec_cmd: vm slot_add_binding Julian 1 0 NM-1FE-TX 
+May 20 18:41:37.732 HYPERVISOR: exec_cmd: vm set_ios Julian C:/Users/Shreyas/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+May 20 18:41:37.757 HYPERVISOR: exec_cmd: vm get_status Julian 
+May 20 18:41:37.781 HYPERVISOR: exec_cmd: vm set_idle_pc Julian 0x603e26f0 
+May 20 18:41:37.805 HYPERVISOR: exec_cmd: vm get_status Julian 
+May 20 18:41:37.828 HYPERVISOR: exec_cmd: vm slot_add_binding Julian 0 0 NM-1FE-TX 
+May 20 18:41:37.872 HYPERVISOR: exec_cmd: vm set_ram Julian 192 
+May 20 18:41:37.931 HYPERVISOR: exec_cmd: vm set_config Julian configs/i4_startup-config.cfg 
+May 20 18:41:38.141 HYPERVISOR: exec_cmd: nio create_udp udp-386937a1-5684-4810-bd5b-beaddf86b34c 10003 127.0.0.1 10002 
+May 20 18:41:38.173 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Julian 1 0 udp-386937a1-5684-4810-bd5b-beaddf86b34c 
+May 20 18:41:38.195 HYPERVISOR: exec_cmd: vm get_status Julian 
+May 20 18:41:38.272 HYPERVISOR: exec_cmd: nio create_udp udp-0ab7e852-f3e5-4137-8c3b-c9988e396f27 10004 127.0.0.1 10005 
+May 20 18:41:38.322 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Julian 0 0 udp-0ab7e852-f3e5-4137-8c3b-c9988e396f27 
+May 20 18:41:38.348 HYPERVISOR: exec_cmd: vm get_status Julian 
+May 20 18:41:38.564 HYPERVISOR: exec_cmd: vm extract_config Julian 
+May 20 18:43:38.967 HYPERVISOR: exec_cmd: vm set_ghost_status Julian 2 
+May 20 18:43:38.984 HYPERVISOR: exec_cmd: vm set_ghost_file Julian c3640-jk9s-mz.124-16.image-192.ghost 
+May 20 18:43:38.997 HYPERVISOR: exec_cmd: vm get_status Julian 
+May 20 18:43:39.011 HYPERVISOR: exec_cmd: vm start Julian 
+May 20 19:23:03.929 HYPERVISOR: exec_cmd: vm get_status Julian 
+May 20 19:23:03.996 HYPERVISOR: exec_cmd: vm stop Julian 
+May 20 19:23:04.170 VM: VM Julian shutdown.
+May 20 19:23:04.177 HYPERVISOR: exec_cmd: vm extract_config Julian 
+May 20 19:23:07.679 HYPERVISOR: exec_cmd: vm extract_config Julian 
+May 20 19:24:56.140 HYPERVISOR: exec_cmd: vm rename Julian Colin 
+May 20 19:27:11.241 HYPERVISOR: exec_cmd: vm extract_config Colin 
+May 20 19:27:13.492 HYPERVISOR: exec_cmd: vm get_status Colin 
+May 20 19:27:13.516 HYPERVISOR: exec_cmd: vm extract_config Colin 
+May 20 19:27:13.550 HYPERVISOR: exec_cmd: vm delete Colin 
+May 20 19:27:13.550 VM: VM Colin destroyed.
+May 20 19:27:13.577 HYPERVISOR: exec_cmd: hypervisor stop 
+May 20 19:27:13.836 HYPERVISOR: Stopped.
+May 20 19:27:13.836 GENERAL: reset done.

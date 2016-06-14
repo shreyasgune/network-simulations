@@ -1,0 +1,48 @@
+May 20 18:41:37.464 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+May 20 18:41:37.465 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58397.
+May 20 18:41:37.574 HYPERVISOR: exec_cmd: hypervisor version 
+May 20 18:41:37.605 HYPERVISOR: exec_cmd: hypervisor working_dir C:\dev\networktrace\NTP (Network Time Protocol)\project-files\dynamips 
+May 20 18:41:37.605 GENERAL: working_dir=C:\dev\networktrace\NTP (Network Time Protocol)\project-files\dynamips
+May 20 18:41:37.631 HYPERVISOR: exec_cmd: vm create Planck 6 c3600 
+May 20 18:41:37.633 VM: VM Planck created.
+May 20 18:41:37.657 HYPERVISOR: exec_cmd: vm set_con_tcp_port Planck 2005 
+May 20 18:41:37.682 HYPERVISOR: exec_cmd: c3600 get_mac_addr Planck 
+May 20 18:41:37.706 HYPERVISOR: exec_cmd: vm get_status Planck 
+May 20 18:41:37.729 HYPERVISOR: exec_cmd: vm slot_add_binding Planck 1 0 NM-1FE-TX 
+May 20 18:41:37.754 HYPERVISOR: exec_cmd: vm set_ios Planck C:/Users/Shreyas/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+May 20 18:41:37.779 HYPERVISOR: exec_cmd: vm get_status Planck 
+May 20 18:41:37.801 HYPERVISOR: exec_cmd: vm set_idle_pc Planck 0x603e26f0 
+May 20 18:41:37.825 HYPERVISOR: exec_cmd: vm get_status Planck 
+May 20 18:41:37.867 HYPERVISOR: exec_cmd: vm slot_add_binding Planck 2 0 NM-1FE-TX 
+May 20 18:41:37.925 HYPERVISOR: exec_cmd: vm get_status Planck 
+May 20 18:41:37.940 HYPERVISOR: exec_cmd: vm slot_add_binding Planck 0 0 NM-1FE-TX 
+May 20 18:41:37.990 HYPERVISOR: exec_cmd: vm set_ram Planck 192 
+May 20 18:41:38.030 HYPERVISOR: exec_cmd: vm set_config Planck configs/i6_startup-config.cfg 
+May 20 18:41:38.439 HYPERVISOR: exec_cmd: nio create_udp udp-a8b874be-235c-4985-a97a-deac95cb23a7 10007 127.0.0.1 10006 
+May 20 18:41:38.483 HYPERVISOR: exec_cmd: vm extract_config Planck 
+May 20 18:41:38.507 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Planck 0 0 udp-a8b874be-235c-4985-a97a-deac95cb23a7 
+May 20 18:41:38.532 HYPERVISOR: exec_cmd: vm get_status Planck 
+May 20 18:41:38.579 HYPERVISOR: exec_cmd: nio create_udp udp-c0301fbe-911a-480b-9192-e91863eac847 10009 127.0.0.1 10008 
+May 20 18:41:38.611 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Planck 2 0 udp-c0301fbe-911a-480b-9192-e91863eac847 
+May 20 18:41:38.635 HYPERVISOR: exec_cmd: vm get_status Planck 
+May 20 18:41:38.667 HYPERVISOR: exec_cmd: nio create_udp udp-f0794a04-526e-475e-9a9a-9477aefc33a3 10010 127.0.0.1 10011 
+May 20 18:41:38.680 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Planck 1 0 udp-f0794a04-526e-475e-9a9a-9477aefc33a3 
+May 20 18:41:38.691 HYPERVISOR: exec_cmd: vm get_status Planck 
+May 20 18:43:38.919 HYPERVISOR: exec_cmd: vm set_ghost_status Planck 2 
+May 20 18:43:38.935 HYPERVISOR: exec_cmd: vm set_ghost_file Planck c3640-jk9s-mz.124-16.image-192.ghost 
+May 20 18:43:38.950 HYPERVISOR: exec_cmd: vm get_status Planck 
+May 20 18:43:38.978 HYPERVISOR: exec_cmd: vm start Planck 
+May 20 19:23:03.889 HYPERVISOR: exec_cmd: vm get_status Planck 
+May 20 19:23:03.979 HYPERVISOR: exec_cmd: vm stop Planck 
+May 20 19:23:04.248 VM: VM Planck shutdown.
+May 20 19:23:04.264 HYPERVISOR: exec_cmd: vm extract_config Planck 
+May 20 19:23:07.654 HYPERVISOR: exec_cmd: vm extract_config Planck 
+May 20 19:23:12.656 HYPERVISOR: exec_cmd: vm rename Planck Thom 
+May 20 19:27:11.215 HYPERVISOR: exec_cmd: vm extract_config Thom 
+May 20 19:27:13.497 HYPERVISOR: exec_cmd: vm get_status Thom 
+May 20 19:27:13.522 HYPERVISOR: exec_cmd: vm extract_config Thom 
+May 20 19:27:13.560 HYPERVISOR: exec_cmd: vm delete Thom 
+May 20 19:27:13.560 VM: VM Thom destroyed.
+May 20 19:27:13.589 HYPERVISOR: exec_cmd: hypervisor stop 
+May 20 19:27:13.836 HYPERVISOR: Stopped.
+May 20 19:27:13.836 GENERAL: reset done.

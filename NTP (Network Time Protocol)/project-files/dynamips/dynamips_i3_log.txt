@@ -1,0 +1,38 @@
+May 20 18:41:37.350 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+May 20 18:41:37.351 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58394.
+May 20 18:41:37.542 HYPERVISOR: exec_cmd: hypervisor version 
+May 20 18:41:37.565 HYPERVISOR: exec_cmd: hypervisor working_dir C:\dev\networktrace\NTP (Network Time Protocol)\project-files\dynamips 
+May 20 18:41:37.565 GENERAL: working_dir=C:\dev\networktrace\NTP (Network Time Protocol)\project-files\dynamips
+May 20 18:41:37.593 HYPERVISOR: exec_cmd: vm create Century 3 c3600 
+May 20 18:41:37.594 VM: VM Century created.
+May 20 18:41:37.621 HYPERVISOR: exec_cmd: vm set_con_tcp_port Century 2008 
+May 20 18:41:37.647 HYPERVISOR: exec_cmd: c3600 get_mac_addr Century 
+May 20 18:41:37.671 HYPERVISOR: exec_cmd: vm set_ios Century C:/Users/Shreyas/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+May 20 18:41:37.696 HYPERVISOR: exec_cmd: vm get_status Century 
+May 20 18:41:37.719 HYPERVISOR: exec_cmd: vm slot_add_binding Century 0 0 NM-1FE-TX 
+May 20 18:41:37.744 HYPERVISOR: exec_cmd: vm get_status Century 
+May 20 18:41:37.768 HYPERVISOR: exec_cmd: vm set_idle_pc Century 0x603e26f0 
+May 20 18:41:37.791 HYPERVISOR: exec_cmd: vm set_ram Century 192 
+May 20 18:41:37.816 HYPERVISOR: exec_cmd: vm set_config Century configs/i3_startup-config.cfg 
+May 20 18:41:38.116 HYPERVISOR: exec_cmd: nio create_udp udp-5553bb2a-718d-41a6-b49c-9e0b4d8834d4 10002 127.0.0.1 10003 
+May 20 18:41:38.169 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Century 0 0 udp-5553bb2a-718d-41a6-b49c-9e0b4d8834d4 
+May 20 18:41:38.189 HYPERVISOR: exec_cmd: vm get_status Century 
+May 20 18:41:38.410 HYPERVISOR: exec_cmd: vm extract_config Century 
+May 20 18:43:39.002 HYPERVISOR: exec_cmd: vm set_ghost_status Century 2 
+May 20 18:43:39.021 HYPERVISOR: exec_cmd: vm set_ghost_file Century c3640-jk9s-mz.124-16.image-192.ghost 
+May 20 18:43:39.031 HYPERVISOR: exec_cmd: vm get_status Century 
+May 20 18:43:39.047 HYPERVISOR: exec_cmd: vm start Century 
+May 20 19:23:03.969 HYPERVISOR: exec_cmd: vm get_status Century 
+May 20 19:23:04.009 HYPERVISOR: exec_cmd: vm stop Century 
+May 20 19:23:04.085 VM: VM Century shutdown.
+May 20 19:23:04.092 HYPERVISOR: exec_cmd: vm extract_config Century 
+May 20 19:23:07.645 HYPERVISOR: exec_cmd: vm extract_config Century 
+May 20 19:25:27.997 HYPERVISOR: exec_cmd: vm rename Century Ed 
+May 20 19:27:11.209 HYPERVISOR: exec_cmd: vm extract_config Ed 
+May 20 19:27:13.489 HYPERVISOR: exec_cmd: vm get_status Ed 
+May 20 19:27:13.513 HYPERVISOR: exec_cmd: vm extract_config Ed 
+May 20 19:27:13.544 HYPERVISOR: exec_cmd: vm delete Ed 
+May 20 19:27:13.544 VM: VM Ed destroyed.
+May 20 19:27:13.574 HYPERVISOR: exec_cmd: hypervisor stop 
+May 20 19:27:13.836 HYPERVISOR: Stopped.
+May 20 19:27:13.836 GENERAL: reset done.

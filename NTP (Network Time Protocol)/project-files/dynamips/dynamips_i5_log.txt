@@ -1,0 +1,51 @@
+May 20 18:41:37.425 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+May 20 18:41:37.426 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58396.
+May 20 18:41:37.561 HYPERVISOR: exec_cmd: hypervisor version 
+May 20 18:41:37.587 HYPERVISOR: exec_cmd: hypervisor working_dir C:\dev\networktrace\NTP (Network Time Protocol)\project-files\dynamips 
+May 20 18:41:37.587 GENERAL: working_dir=C:\dev\networktrace\NTP (Network Time Protocol)\project-files\dynamips
+May 20 18:41:37.618 HYPERVISOR: exec_cmd: vm create Millenium 5 c3600 
+May 20 18:41:37.619 VM: VM Millenium created.
+May 20 18:41:37.643 HYPERVISOR: exec_cmd: vm set_con_tcp_port Millenium 2009 
+May 20 18:41:37.668 HYPERVISOR: exec_cmd: c3600 get_mac_addr Millenium 
+May 20 18:41:37.693 HYPERVISOR: exec_cmd: vm set_ios Millenium C:/Users/Shreyas/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+May 20 18:41:37.716 HYPERVISOR: exec_cmd: vm get_status Millenium 
+May 20 18:41:37.740 HYPERVISOR: exec_cmd: vm slot_add_binding Millenium 0 0 NM-1FE-TX 
+May 20 18:41:37.765 HYPERVISOR: exec_cmd: vm get_status Millenium 
+May 20 18:41:37.789 HYPERVISOR: exec_cmd: vm set_idle_pc Millenium 0x603e26f0 
+May 20 18:41:37.812 HYPERVISOR: exec_cmd: vm set_ram Millenium 192 
+May 20 18:41:37.836 HYPERVISOR: exec_cmd: vm set_config Millenium configs/i5_startup-config.cfg 
+May 20 18:41:38.459 HYPERVISOR: exec_cmd: nio create_udp udp-a596869e-c3d5-42a0-9abe-280ba7ae112f 10008 127.0.0.1 10009 
+May 20 18:41:38.486 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Millenium 0 0 udp-a596869e-c3d5-42a0-9abe-280ba7ae112f 
+May 20 18:41:38.510 HYPERVISOR: exec_cmd: vm extract_config Millenium 
+May 20 18:41:38.542 HYPERVISOR: exec_cmd: vm get_status Millenium 
+May 20 18:43:38.115 HYPERVISOR: exec_cmd: vm create Ghost 0 c3600 
+May 20 18:43:38.116 VM: VM Ghost created.
+May 20 18:43:38.143 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Shreyas/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+May 20 18:43:38.150 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+May 20 18:43:38.157 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost c3640-jk9s-mz.124-16.image-192.ghost 
+May 20 18:43:38.162 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+May 20 18:43:38.167 HYPERVISOR: exec_cmd: vm get_status Ghost 
+May 20 18:43:38.175 HYPERVISOR: exec_cmd: vm start Ghost 
+May 20 18:43:38.595 HYPERVISOR: exec_cmd: vm get_status Ghost 
+May 20 18:43:38.606 HYPERVISOR: exec_cmd: vm stop Ghost 
+May 20 18:43:38.866 VM: VM Ghost shutdown.
+May 20 18:43:38.874 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+May 20 18:43:38.874 VM: VM Ghost destroyed.
+May 20 18:43:38.899 HYPERVISOR: exec_cmd: vm set_ghost_status Millenium 2 
+May 20 18:43:38.907 HYPERVISOR: exec_cmd: vm set_ghost_file Millenium c3640-jk9s-mz.124-16.image-192.ghost 
+May 20 18:43:38.913 HYPERVISOR: exec_cmd: vm get_status Millenium 
+May 20 18:43:38.928 HYPERVISOR: exec_cmd: vm start Millenium 
+May 20 19:23:03.806 HYPERVISOR: exec_cmd: vm get_status Millenium 
+May 20 19:23:03.940 HYPERVISOR: exec_cmd: vm stop Millenium 
+May 20 19:23:04.034 VM: VM Millenium shutdown.
+May 20 19:23:04.042 HYPERVISOR: exec_cmd: vm extract_config Millenium 
+May 20 19:23:07.663 HYPERVISOR: exec_cmd: vm extract_config Millenium 
+May 20 19:24:10.848 HYPERVISOR: exec_cmd: vm rename Millenium Phil 
+May 20 19:27:11.225 HYPERVISOR: exec_cmd: vm extract_config Phil 
+May 20 19:27:13.494 HYPERVISOR: exec_cmd: vm get_status Phil 
+May 20 19:27:13.520 HYPERVISOR: exec_cmd: vm extract_config Phil 
+May 20 19:27:13.555 HYPERVISOR: exec_cmd: vm delete Phil 
+May 20 19:27:13.555 VM: VM Phil destroyed.
+May 20 19:27:13.580 HYPERVISOR: exec_cmd: hypervisor stop 
+May 20 19:27:13.861 HYPERVISOR: Stopped.
+May 20 19:27:13.861 GENERAL: reset done.
