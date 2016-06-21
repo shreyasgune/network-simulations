@@ -1,0 +1,162 @@
+{
+    "auto_start": false,
+    "name": "Conditional Debug",
+    "project_id": "cb266c8e-4ab3-4c61-aa16-94b5968eece9",
+    "revision": 4,
+    "topology": {
+        "links": [
+            {
+                "description": "Link from Erik port FastEthernet0/0 to radiohead port FastEthernet0/0",
+                "destination_node_id": 2,
+                "destination_port_id": 2,
+                "id": 1,
+                "source_node_id": 1,
+                "source_port_id": 1
+            }
+        ],
+        "nodes": [
+            {
+                "description": "Router c3600",
+                "dynamips_id": 1,
+                "id": 1,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Erik",
+                    "x": 19.5,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to radiohead on port FastEthernet0/0",
+                        "id": 1,
+                        "link_id": 1,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "auto_delete_disks": false,
+                    "chassis": "3640",
+                    "clock_divisor": 4,
+                    "console": 2015,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "exec_area": 16,
+                    "idlemax": 500,
+                    "idlepc": "0x603e26f0",
+                    "idlesleep": 30,
+                    "image": "c3640-jk9s-mz.124-16.image",
+                    "image_md5sum": "0f66dc20ca79ca948a491c2018bffc13",
+                    "iomem": 5,
+                    "mac_addr": "cc01.08e4.0000",
+                    "mmap": true,
+                    "name": "Erik",
+                    "nvram": 128,
+                    "platform": "c3600",
+                    "ram": 192,
+                    "slot0": "NM-1FE-TX",
+                    "sparsemem": true,
+                    "startup_config": "configs/i1_startup-config.cfg",
+                    "system_id": "FTX0945W0MY"
+                },
+                "server_id": 1,
+                "type": "C3600",
+                "vm_id": "8952779a-dc0f-46e5-abe7-9f3afef1cf9f",
+                "x": -59.43860017999998,
+                "y": -53.40559159099999
+            },
+            {
+                "description": "Router c3600",
+                "dynamips_id": 2,
+                "id": 2,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "radiohead",
+                    "x": -14.0,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to Erik on port FastEthernet0/0",
+                        "id": 2,
+                        "link_id": 1,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "auto_delete_disks": false,
+                    "chassis": "3640",
+                    "clock_divisor": 4,
+                    "console": 2014,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "exec_area": 16,
+                    "idlemax": 500,
+                    "idlepc": "0x603e26f0",
+                    "idlesleep": 30,
+                    "image": "c3640-jk9s-mz.124-16.image",
+                    "image_md5sum": "0f66dc20ca79ca948a491c2018bffc13",
+                    "iomem": 5,
+                    "mac_addr": "cc02.2f30.0000",
+                    "mmap": true,
+                    "name": "radiohead",
+                    "nvram": 128,
+                    "platform": "c3600",
+                    "ram": 192,
+                    "slot0": "NM-1FE-TX",
+                    "sparsemem": true,
+                    "startup_config": "configs/i2_startup-config.cfg",
+                    "system_id": "FTX0945W0MY"
+                },
+                "server_id": 1,
+                "type": "C3600",
+                "vm_id": "0099a3ea-ddd4-4f30-8ff2-70c9e5fad995",
+                "x": -391.553390593,
+                "y": -48.40559159099999
+            }
+        ],
+        "notes": [
+            {
+                "color": "#ff0000ff",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": ".1",
+                "x": -320.319371878,
+                "y": -53.9203102168
+            },
+            {
+                "color": "#ff0000ff",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "192.168.12.0 /24",
+                "x": -266.842712475,
+                "y": -63.1335136524
+            },
+            {
+                "color": "#ff0000ff",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": ".2",
+                "x": -85.592929113,
+                "y": -64.7071067812
+            }
+        ],
+        "servers": [
+            {
+                "host": "127.0.0.1",
+                "id": 1,
+                "local": true,
+                "port": 8000,
+                "protocol": "http",
+                "ram_limit": 0,
+                "vm": false
+            }
+        ]
+    },
+    "type": "topology",
+    "version": "1.4.6"
+}

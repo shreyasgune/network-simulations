@@ -1,0 +1,51 @@
+May 20 18:04:42.415 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+May 20 18:04:42.415 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58165.
+May 20 18:04:42.886 HYPERVISOR: exec_cmd: hypervisor version 
+May 20 18:04:42.896 HYPERVISOR: exec_cmd: hypervisor working_dir C:\dev\networktrace\Conditional Debug\project-files\dynamips 
+May 20 18:04:43.095 GENERAL: working_dir=C:\dev\networktrace\Conditional Debug\project-files\dynamips
+May 20 18:04:43.097 HYPERVISOR: exec_cmd: vm create Frank 2 c3600 
+May 20 18:04:43.098 VM: VM Frank created.
+May 20 18:04:43.102 HYPERVISOR: exec_cmd: vm set_con_tcp_port Frank 2014 
+May 20 18:04:43.109 HYPERVISOR: exec_cmd: c3600 get_mac_addr Frank 
+May 20 18:04:43.118 HYPERVISOR: exec_cmd: vm get_status Frank 
+May 20 18:04:43.127 HYPERVISOR: exec_cmd: vm set_idle_pc Frank 0x603e26f0 
+May 20 18:04:43.138 HYPERVISOR: exec_cmd: vm get_status Frank 
+May 20 18:04:43.147 HYPERVISOR: exec_cmd: vm slot_add_binding Frank 0 0 NM-1FE-TX 
+May 20 18:04:43.156 HYPERVISOR: exec_cmd: vm set_ios Frank C:/Users/Shreyas/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+May 20 18:04:43.165 HYPERVISOR: exec_cmd: vm set_ram Frank 192 
+May 20 18:04:43.174 HYPERVISOR: exec_cmd: vm set_config Frank configs/i2_startup-config.cfg 
+May 20 18:04:43.331 HYPERVISOR: exec_cmd: nio create_udp udp-2931bc7e-7abc-4ce6-9bcd-682a9fde548f 10001 127.0.0.1 10000 
+May 20 18:04:43.346 HYPERVISOR: exec_cmd: vm extract_config Frank 
+May 20 18:04:43.369 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Frank 0 0 udp-2931bc7e-7abc-4ce6-9bcd-682a9fde548f 
+May 20 18:04:43.383 HYPERVISOR: exec_cmd: vm get_status Frank 
+May 20 18:05:12.278 HYPERVISOR: exec_cmd: vm create Ghost 0 c3600 
+May 20 18:05:12.279 VM: VM Ghost created.
+May 20 18:05:12.285 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Shreyas/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+May 20 18:05:12.291 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+May 20 18:05:12.297 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost c3640-jk9s-mz.124-16.image-192.ghost 
+May 20 18:05:12.304 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+May 20 18:05:12.311 HYPERVISOR: exec_cmd: vm get_status Ghost 
+May 20 18:05:12.317 HYPERVISOR: exec_cmd: vm start Ghost 
+May 20 18:05:12.711 HYPERVISOR: exec_cmd: vm get_status Ghost 
+May 20 18:05:12.723 HYPERVISOR: exec_cmd: vm stop Ghost 
+May 20 18:05:12.964 VM: VM Ghost shutdown.
+May 20 18:05:12.967 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+May 20 18:05:12.968 VM: VM Ghost destroyed.
+May 20 18:05:12.990 HYPERVISOR: exec_cmd: vm set_ghost_status Frank 2 
+May 20 18:05:12.996 HYPERVISOR: exec_cmd: vm set_ghost_file Frank c3640-jk9s-mz.124-16.image-192.ghost 
+May 20 18:05:13.002 HYPERVISOR: exec_cmd: vm get_status Frank 
+May 20 18:05:13.016 HYPERVISOR: exec_cmd: vm start Frank 
+May 20 18:21:51.175 HYPERVISOR: exec_cmd: vm get_status Frank 
+May 20 18:21:51.192 HYPERVISOR: exec_cmd: vm stop Frank 
+May 20 18:21:51.267 VM: VM Frank shutdown.
+May 20 18:21:51.274 HYPERVISOR: exec_cmd: vm extract_config Frank 
+May 20 18:21:55.157 HYPERVISOR: exec_cmd: vm rename Frank radiohead 
+May 20 18:21:59.232 HYPERVISOR: exec_cmd: vm extract_config radiohead 
+May 20 18:22:11.746 HYPERVISOR: exec_cmd: vm extract_config radiohead 
+May 20 18:22:13.166 HYPERVISOR: exec_cmd: vm get_status radiohead 
+May 20 18:22:13.175 HYPERVISOR: exec_cmd: vm extract_config radiohead 
+May 20 18:22:13.193 HYPERVISOR: exec_cmd: vm delete radiohead 
+May 20 18:22:13.193 VM: VM radiohead destroyed.
+May 20 18:22:13.203 HYPERVISOR: exec_cmd: hypervisor stop 
+May 20 18:22:13.652 HYPERVISOR: Stopped.
+May 20 18:22:13.652 GENERAL: reset done.

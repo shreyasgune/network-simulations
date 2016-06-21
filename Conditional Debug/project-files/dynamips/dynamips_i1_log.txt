@@ -1,0 +1,37 @@
+May 20 18:04:42.415 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+May 20 18:04:42.415 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58164.
+May 20 18:04:42.889 HYPERVISOR: exec_cmd: hypervisor version 
+May 20 18:04:42.899 HYPERVISOR: exec_cmd: hypervisor working_dir C:\dev\networktrace\Conditional Debug\project-files\dynamips 
+May 20 18:04:43.104 GENERAL: working_dir=C:\dev\networktrace\Conditional Debug\project-files\dynamips
+May 20 18:04:43.112 HYPERVISOR: exec_cmd: vm create Erik 1 c3600 
+May 20 18:04:43.113 VM: VM Erik created.
+May 20 18:04:43.121 HYPERVISOR: exec_cmd: vm set_con_tcp_port Erik 2015 
+May 20 18:04:43.130 HYPERVISOR: exec_cmd: c3600 get_mac_addr Erik 
+May 20 18:04:43.140 HYPERVISOR: exec_cmd: vm get_status Erik 
+May 20 18:04:43.149 HYPERVISOR: exec_cmd: vm set_idle_pc Erik 0x603e26f0 
+May 20 18:04:43.159 HYPERVISOR: exec_cmd: vm get_status Erik 
+May 20 18:04:43.168 HYPERVISOR: exec_cmd: vm slot_add_binding Erik 0 0 NM-1FE-TX 
+May 20 18:04:43.177 HYPERVISOR: exec_cmd: vm set_ios Erik C:/Users/Shreyas/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+May 20 18:04:43.202 HYPERVISOR: exec_cmd: vm set_ram Erik 192 
+May 20 18:04:43.210 HYPERVISOR: exec_cmd: vm set_config Erik configs/i1_startup-config.cfg 
+May 20 18:04:43.302 HYPERVISOR: exec_cmd: vm extract_config Erik 
+May 20 18:04:43.340 HYPERVISOR: exec_cmd: nio create_udp udp-14bad66a-28f7-42ed-a84e-ad4ee744c3ce 10000 127.0.0.1 10001 
+May 20 18:04:43.351 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Erik 0 0 udp-14bad66a-28f7-42ed-a84e-ad4ee744c3ce 
+May 20 18:04:43.373 HYPERVISOR: exec_cmd: vm get_status Erik 
+May 20 18:05:13.011 HYPERVISOR: exec_cmd: vm set_ghost_status Erik 2 
+May 20 18:05:13.025 HYPERVISOR: exec_cmd: vm set_ghost_file Erik c3640-jk9s-mz.124-16.image-192.ghost 
+May 20 18:05:13.034 HYPERVISOR: exec_cmd: vm get_status Erik 
+May 20 18:05:13.042 HYPERVISOR: exec_cmd: vm start Erik 
+May 20 18:21:51.184 HYPERVISOR: exec_cmd: vm get_status Erik 
+May 20 18:21:51.197 HYPERVISOR: exec_cmd: vm stop Erik 
+May 20 18:21:51.309 VM: VM Erik shutdown.
+May 20 18:21:51.313 HYPERVISOR: exec_cmd: vm extract_config Erik 
+May 20 18:21:59.223 HYPERVISOR: exec_cmd: vm extract_config Erik 
+May 20 18:22:11.739 HYPERVISOR: exec_cmd: vm extract_config Erik 
+May 20 18:22:13.164 HYPERVISOR: exec_cmd: vm get_status Erik 
+May 20 18:22:13.172 HYPERVISOR: exec_cmd: vm extract_config Erik 
+May 20 18:22:13.187 HYPERVISOR: exec_cmd: vm delete Erik 
+May 20 18:22:13.187 VM: VM Erik destroyed.
+May 20 18:22:13.200 HYPERVISOR: exec_cmd: hypervisor stop 
+May 20 18:22:13.581 HYPERVISOR: Stopped.
+May 20 18:22:13.581 GENERAL: reset done.
