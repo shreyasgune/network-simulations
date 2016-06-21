@@ -1,6 +1,7 @@
 #Conditional Debug
 Make it so that the screen only outputs of certain protocols and not flood the screen with everything.
 
+![topology](https://github.com/shreyasgune/network-simulations/blob/master/Conditional%20Debug/screenshot.png)
 Assumption : IPs, OSPF and RIP has been configured before hand. I have individual labs for those if you want.
 
 Thom only shows RIP information on fa0/0. 
