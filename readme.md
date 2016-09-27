@@ -8,7 +8,7 @@ I just wanted to find out how networks work. This series takes care of most of t
 You're going to need Cisco Packet Tracer to try these things out. There might be a student edition you can get hold of.
 [Packet Tracer](https://www.netacad.com/about-networking-academy/packet-tracer/) 
 For more advanced labs, I'm using GNS3. There is a ton of configuration that is required to be taken care of and I will expand on those
-specifics in this section on 5/21/2016. Keep looking into this space for the updated info. 
+specifics in this section on ~~5/21/2016~~ . It turns out that I've got a lot more on my plate than I initially planned for so the updates will be a bit sparse and spread out. Keep looking into this space for the updated info. 
 If you wan't to play around, go ahead and download [GNS3](https://www.gns3.com/software/download). 
 
 ##Series
