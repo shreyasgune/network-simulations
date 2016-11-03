@@ -1,6 +1,10 @@
 #Network Management - IV : Remote Shell Access
 This is a simple remote login into Radiohead's shell  : access between two network devices to run commands.
 
+
+##Topology
+
+![Topo](https://github.com/shreyasgune/network-simulations/blob/master/Remote%20Shell/screenshot.png)
 ##Configure Topology for network : 192.168.12.0 /24
 
 ###Router- Radiohead
