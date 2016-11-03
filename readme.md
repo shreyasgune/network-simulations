@@ -24,7 +24,7 @@ If you wan't to play around, go ahead and download [GNS3](https://www.gns3.com/s
 10. [Network Management I : Kron Task Scheduler] (https://github.com/shreyasgune/network-simulations/tree/master/Kron)
 11. [Network Management II : NTP (Network Time Protocol)] (https://github.com/shreyasgune/network-simulations/tree/master/NTP%20(Network%20Time%20Protocol))
 12. [Network Management III : Conditional Debug] (https://github.com/shreyasgune/network-simulations/tree/master/Conditional%20Debug)
-13. Network Management IV : Remote Shell (coming on soon) 
+13. [Network Management IV : Remote Shell] (https://github.com/shreyasgune/network-simulations/tree/master/Remote%20Shell) 
 14. VTP (coming soon)
 15. BGP (coming soon)
 16. Multicast Telneting (coming soon) 
