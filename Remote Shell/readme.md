@@ -80,6 +80,7 @@ RCMD transactions debugging is on
 ```
 
 ##Beatles Side : 192.168.12.1 
+```
 Beatles#sh ip int br
 Interface                  IP-Address      OK? Method Status                Protocol
 FastEthernet0/0            192.168.12.1    YES NVRAM  up                    up
