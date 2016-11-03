@@ -8,7 +8,7 @@ I just wanted to find out how networks work. This series takes care of most of t
 You're going to need Cisco Packet Tracer to try these things out. There might be a student edition you can get hold of.
 [Packet Tracer](https://www.netacad.com/about-networking-academy/packet-tracer/) 
 For more advanced labs, I'm using GNS3. There is a ton of configuration that is required to be taken care of and I will expand on those
-specifics in this section on 5/21/2016. Keep looking into this space for the updated info. 
+specifics in this section on ~~5/21/2016~~ . It turns out that I've got a lot more on my plate than I initially planned for so the updates will be a bit sparse and spread out. Keep looking into this space for the updated info. 
 If you wan't to play around, go ahead and download [GNS3](https://www.gns3.com/software/download). 
 
 ##Series
@@ -23,7 +23,7 @@ If you wan't to play around, go ahead and download [GNS3](https://www.gns3.com/s
 9. MPLS Lab (coming soon) 
 10. [Network Management I : Kron Task Scheduler] (https://github.com/shreyasgune/network-simulations/tree/master/Kron)
 11. [Network Management II : NTP (Network Time Protocol)] (https://github.com/shreyasgune/network-simulations/tree/master/NTP%20(Network%20Time%20Protocol))
-12. Network Management III : Conditional Debug (coming on soon)
+12. [Network Management III : Conditional Debug] (https://github.com/shreyasgune/network-simulations/tree/master/Conditional%20Debug)
 13. Network Management IV : Remote Shell (coming on soon) 
 14. VTP (coming soon)
 15. BGP (coming soon)
