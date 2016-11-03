@@ -1,0 +1,162 @@
+{
+    "auto_start": false,
+    "name": "Remote Shell",
+    "project_id": "2b9163c3-c4fe-4796-9c2e-b4b1b3ef2712",
+    "revision": 4,
+    "topology": {
+        "links": [
+            {
+                "description": "Link from Radiohead port FastEthernet0/0 to Beatles port FastEthernet0/0",
+                "destination_node_id": 2,
+                "destination_port_id": 2,
+                "id": 1,
+                "source_node_id": 1,
+                "source_port_id": 1
+            }
+        ],
+        "nodes": [
+            {
+                "description": "Router c3600",
+                "dynamips_id": 1,
+                "id": 1,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Radiohead",
+                    "x": -16.5,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to Beatles on port FastEthernet0/0",
+                        "id": 1,
+                        "link_id": 1,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "auto_delete_disks": false,
+                    "chassis": "3640",
+                    "clock_divisor": 4,
+                    "console": 2001,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "exec_area": 16,
+                    "idlemax": 500,
+                    "idlepc": "0x603e26f0",
+                    "idlesleep": 30,
+                    "image": "c3640-jk9s-mz.124-16.image",
+                    "image_md5sum": "0f66dc20ca79ca948a491c2018bffc13",
+                    "iomem": 5,
+                    "mac_addr": "cc01.1418.0000",
+                    "mmap": true,
+                    "name": "Radiohead",
+                    "nvram": 128,
+                    "platform": "c3600",
+                    "ram": 192,
+                    "slot0": "NM-1FE-TX",
+                    "sparsemem": true,
+                    "startup_config": "configs/i1_startup-config.cfg",
+                    "system_id": "FTX0945W0MY"
+                },
+                "server_id": 1,
+                "type": "C3600",
+                "vm_id": "4ec2e582-492d-46f0-a5ec-3d1f6cefe75c",
+                "x": -146.844191771,
+                "y": -92.7106781187
+            },
+            {
+                "description": "Router c3600",
+                "dynamips_id": 2,
+                "id": 2,
+                "label": {
+                    "color": "#ff000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "Beatles",
+                    "x": -2.5,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "adapter_number": 0,
+                        "description": "connected to Radiohead on port FastEthernet0/0",
+                        "id": 2,
+                        "link_id": 1,
+                        "name": "FastEthernet0/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    }
+                ],
+                "properties": {
+                    "auto_delete_disks": false,
+                    "chassis": "3640",
+                    "clock_divisor": 4,
+                    "console": 2000,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "exec_area": 16,
+                    "idlemax": 500,
+                    "idlepc": "0x603e26f0",
+                    "idlesleep": 30,
+                    "image": "c3640-jk9s-mz.124-16.image",
+                    "image_md5sum": "0f66dc20ca79ca948a491c2018bffc13",
+                    "iomem": 5,
+                    "mac_addr": "cc02.1ee0.0000",
+                    "mmap": true,
+                    "name": "Beatles",
+                    "nvram": 128,
+                    "platform": "c3600",
+                    "ram": 192,
+                    "slot0": "NM-1FE-TX",
+                    "sparsemem": true,
+                    "startup_config": "configs/i2_startup-config.cfg",
+                    "system_id": "FTX0945W0MY"
+                },
+                "server_id": 1,
+                "type": "C3600",
+                "vm_id": "edb03ce2-f3a4-437e-b90f-0744eb6b2076",
+                "x": -431.0,
+                "y": -94.0
+            }
+        ],
+        "notes": [
+            {
+                "color": "#ff0000ff",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": "192.168.12.0 /24",
+                "x": -334.14779900200006,
+                "y": -101.9741340859
+            },
+            {
+                "color": "#ff0000ff",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": ".2",
+                "x": -172.53405461,
+                "y": -97.9619407771
+            },
+            {
+                "color": "#ff0000ff",
+                "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                "text": ".1",
+                "x": -364.159992311,
+                "y": -97.7609306503
+            }
+        ],
+        "servers": [
+            {
+                "host": "127.0.0.1",
+                "id": 1,
+                "local": true,
+                "port": 8000,
+                "protocol": "http",
+                "ram_limit": 0,
+                "vm": false
+            }
+        ]
+    },
+    "type": "topology",
+    "version": "1.4.6"
+}

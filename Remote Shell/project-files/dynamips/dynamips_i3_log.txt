@@ -1,0 +1,37 @@
+May 20 17:52:48.720 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+May 20 17:52:48.721 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58032.
+May 20 17:52:49.141 HYPERVISOR: exec_cmd: hypervisor version 
+May 20 17:52:49.152 HYPERVISOR: exec_cmd: hypervisor working_dir C:\dev\networktrace\Remote Shell\project-files\dynamips 
+May 20 17:52:49.309 GENERAL: working_dir=C:\dev\networktrace\Remote Shell\project-files\dynamips
+May 20 17:52:49.318 HYPERVISOR: exec_cmd: vm create Shell 1 c3600 
+May 20 17:52:49.319 VM: VM Shell created.
+May 20 17:52:49.328 HYPERVISOR: exec_cmd: vm set_con_tcp_port Shell 2001 
+May 20 17:52:49.337 HYPERVISOR: exec_cmd: c3600 get_mac_addr Shell 
+May 20 17:52:49.347 HYPERVISOR: exec_cmd: vm get_status Shell 
+May 20 17:52:49.356 HYPERVISOR: exec_cmd: vm set_idle_pc Shell 0x603e26f0 
+May 20 17:52:49.366 HYPERVISOR: exec_cmd: vm set_ram Shell 192 
+May 20 17:52:49.375 HYPERVISOR: exec_cmd: vm get_status Shell 
+May 20 17:52:49.385 HYPERVISOR: exec_cmd: vm slot_add_binding Shell 0 0 NM-1FE-TX 
+May 20 17:52:49.411 HYPERVISOR: exec_cmd: vm set_ios Shell C:/Users/Shreyas/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+May 20 17:52:49.419 HYPERVISOR: exec_cmd: vm set_config Shell configs/i1_startup-config.cfg 
+May 20 17:52:49.535 HYPERVISOR: exec_cmd: vm extract_config Shell 
+May 20 17:52:49.576 HYPERVISOR: exec_cmd: nio create_udp udp-a70b52e0-0960-4163-a971-4dfd2e9fa218 10000 127.0.0.1 10001 
+May 20 17:52:49.585 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Shell 0 0 udp-a70b52e0-0960-4163-a971-4dfd2e9fa218 
+May 20 17:52:49.596 HYPERVISOR: exec_cmd: vm get_status Shell 
+May 20 17:52:56.346 HYPERVISOR: exec_cmd: vm set_ghost_status Shell 2 
+May 20 17:52:56.358 HYPERVISOR: exec_cmd: vm set_ghost_file Shell c3640-jk9s-mz.124-16.image-192.ghost 
+May 20 17:52:56.364 HYPERVISOR: exec_cmd: vm get_status Shell 
+May 20 17:52:56.370 HYPERVISOR: exec_cmd: vm start Shell 
+May 20 17:59:29.112 HYPERVISOR: exec_cmd: vm get_status Shell 
+May 20 17:59:29.125 HYPERVISOR: exec_cmd: vm stop Shell 
+May 20 17:59:29.213 VM: VM Shell shutdown.
+May 20 17:59:29.228 HYPERVISOR: exec_cmd: vm extract_config Shell 
+May 20 17:59:43.765 HYPERVISOR: exec_cmd: vm rename Shell Radiohead 
+May 20 18:00:28.882 HYPERVISOR: exec_cmd: vm extract_config Radiohead 
+May 20 18:00:30.347 HYPERVISOR: exec_cmd: vm get_status Radiohead 
+May 20 18:00:30.356 HYPERVISOR: exec_cmd: vm extract_config Radiohead 
+May 20 18:00:30.366 HYPERVISOR: exec_cmd: vm delete Radiohead 
+May 20 18:00:30.366 VM: VM Radiohead destroyed.
+May 20 18:00:30.379 HYPERVISOR: exec_cmd: hypervisor stop 
+May 20 18:00:30.498 HYPERVISOR: Stopped.
+May 20 18:00:30.498 GENERAL: reset done.

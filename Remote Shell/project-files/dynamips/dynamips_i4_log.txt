@@ -1,0 +1,50 @@
+May 20 17:52:48.720 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+May 20 17:52:48.721 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58033.
+May 20 17:52:49.138 HYPERVISOR: exec_cmd: hypervisor version 
+May 20 17:52:49.148 HYPERVISOR: exec_cmd: hypervisor working_dir C:\dev\networktrace\Remote Shell\project-files\dynamips 
+May 20 17:52:49.300 GENERAL: working_dir=C:\dev\networktrace\Remote Shell\project-files\dynamips
+May 20 17:52:49.303 HYPERVISOR: exec_cmd: vm create Turtle 2 c3600 
+May 20 17:52:49.304 VM: VM Turtle created.
+May 20 17:52:49.308 HYPERVISOR: exec_cmd: vm set_con_tcp_port Turtle 2000 
+May 20 17:52:49.315 HYPERVISOR: exec_cmd: c3600 get_mac_addr Turtle 
+May 20 17:52:49.325 HYPERVISOR: exec_cmd: vm get_status Turtle 
+May 20 17:52:49.335 HYPERVISOR: exec_cmd: vm set_idle_pc Turtle 0x603e26f0 
+May 20 17:52:49.344 HYPERVISOR: exec_cmd: vm set_ram Turtle 192 
+May 20 17:52:49.353 HYPERVISOR: exec_cmd: vm get_status Turtle 
+May 20 17:52:49.363 HYPERVISOR: exec_cmd: vm slot_add_binding Turtle 0 0 NM-1FE-TX 
+May 20 17:52:49.373 HYPERVISOR: exec_cmd: vm set_ios Turtle C:/Users/Shreyas/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+May 20 17:52:49.383 HYPERVISOR: exec_cmd: vm set_config Turtle configs/i2_startup-config.cfg 
+May 20 17:52:49.514 HYPERVISOR: exec_cmd: vm extract_config Turtle 
+May 20 17:52:49.565 HYPERVISOR: exec_cmd: nio create_udp udp-a93a8dce-7c4e-413c-a5f9-b994cf87e936 10001 127.0.0.1 10000 
+May 20 17:52:49.579 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Turtle 0 0 udp-a93a8dce-7c4e-413c-a5f9-b994cf87e936 
+May 20 17:52:49.588 HYPERVISOR: exec_cmd: vm get_status Turtle 
+May 20 17:52:55.797 HYPERVISOR: exec_cmd: vm create Ghost 0 c3600 
+May 20 17:52:55.798 VM: VM Ghost created.
+May 20 17:52:55.804 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Shreyas/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+May 20 17:52:55.809 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+May 20 17:52:55.814 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost c3640-jk9s-mz.124-16.image-192.ghost 
+May 20 17:52:55.820 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+May 20 17:52:55.824 HYPERVISOR: exec_cmd: vm get_status Ghost 
+May 20 17:52:55.829 HYPERVISOR: exec_cmd: vm start Ghost 
+May 20 17:52:56.178 HYPERVISOR: exec_cmd: vm get_status Ghost 
+May 20 17:52:56.186 HYPERVISOR: exec_cmd: vm stop Ghost 
+May 20 17:52:56.310 VM: VM Ghost shutdown.
+May 20 17:52:56.314 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+May 20 17:52:56.314 VM: VM Ghost destroyed.
+May 20 17:52:56.330 HYPERVISOR: exec_cmd: vm set_ghost_status Turtle 2 
+May 20 17:52:56.336 HYPERVISOR: exec_cmd: vm set_ghost_file Turtle c3640-jk9s-mz.124-16.image-192.ghost 
+May 20 17:52:56.343 HYPERVISOR: exec_cmd: vm get_status Turtle 
+May 20 17:52:56.352 HYPERVISOR: exec_cmd: vm start Turtle 
+May 20 17:59:23.851 HYPERVISOR: exec_cmd: vm rename Turtle Beatles 
+May 20 17:59:29.104 HYPERVISOR: exec_cmd: vm get_status Turtle 
+May 20 17:59:29.120 HYPERVISOR: exec_cmd: vm stop Turtle 
+May 20 17:59:29.191 VM: VM Turtle shutdown.
+May 20 17:59:29.196 HYPERVISOR: exec_cmd: vm extract_config Turtle 
+May 20 17:59:34.406 HYPERVISOR: exec_cmd: vm rename Turtle Beatles 
+May 20 18:00:28.876 HYPERVISOR: exec_cmd: vm extract_config Beatles 
+May 20 18:00:30.344 HYPERVISOR: exec_cmd: vm get_status Beatles 
+May 20 18:00:30.353 HYPERVISOR: exec_cmd: vm extract_config Beatles 
+May 20 18:00:30.363 HYPERVISOR: exec_cmd: vm delete Beatles 
+May 20 18:00:30.375 HYPERVISOR: exec_cmd: hypervisor stop 
+May 20 18:00:30.498 HYPERVISOR: Stopped.
+May 20 18:00:30.499 GENERAL: reset done.
