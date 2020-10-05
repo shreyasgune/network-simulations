@@ -20,12 +20,13 @@ If you wan't to play around, go ahead and download [GNS3](https://www.gns3.com/s
 6. [Access Control Lists](https://github.com/shreyasgune/network-simulations/tree/master/ACL) 
 7. [FTP Configuration and Access](https://github.com/shreyasgune/network-simulations/tree/master/FTP)
 8. [Mail Server Configuration and Testing using SMTP and POP3](https://github.com/shreyasgune/network-simulations/tree/master/SMTP%20and%20POP3)
-9. MPLS Lab (coming soon) 
-10. [Network Management I : Kron Task Scheduler](https://github.com/shreyasgune/network-simulations/tree/master/Kron)
-11. [Network Management II : NTP (Network Time Protocol)](https://github.com/shreyasgune/network-simulations/tree/master/NTP%20(Network%20Time%20Protocol))
-12. [Network Management III : Conditional Debug](https://github.com/shreyasgune/network-simulations/tree/master/Conditional%20Debug)
-13. [Network Management IV : Remote Shell](https://github.com/shreyasgune/network-simulations/tree/master/Remote%20Shell) 
-14. Coming in the future (maybe) : 
+9. [Network Management I : Kron Task Scheduler](https://github.com/shreyasgune/network-simulations/tree/master/Kron)
+10. [Network Management II : NTP (Network Time Protocol)](https://github.com/shreyasgune/network-simulations/tree/master/NTP%20(Network%20Time%20Protocol))
+11. [Network Management III : Conditional Debug](https://github.com/shreyasgune/network-simulations/tree/master/Conditional%20Debug)
+12. [Network Management IV : Remote Shell](https://github.com/shreyasgune/network-simulations/tree/master/Remote%20Shell) 
+
+## Coming in the future (maybe) : 
+ - MPLS Lab
  - VTP
  - BGP
  - Multicast Telneting
